@@ -57,7 +57,11 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["prettier-eslint --write", "eslint", "git add"]
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint",
+      "git add"
+    ]
   },
   "author": "okamoai <okamoai@rano-raraku.net>",
   "license": "MIT",
@@ -84,8 +88,7 @@
     "css-mqpacker": "^6.0.2",
     "cssnano": "^3.7.1",
     "del": "^3.0.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.3.0",
+    "eslint-config-gnavi": "^1.1.0",
     "glob": "^7.0.5",
     "gulp": "^3.9.1",
     "gulp-base64": "^0.1.3",

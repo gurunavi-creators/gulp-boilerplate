@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint-config-airbnb/base"],
+  "extends": ["gnavi"],
   "rules": {
     "semi": ["error", "never"],
     "comma-dangle": ["error", "always-multiline"],
