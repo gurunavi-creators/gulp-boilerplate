@@ -6,7 +6,7 @@ gulp.js を使用した静的ページ出力を対象にしたボイラープレ
 ## 推奨環境
 ```
 "node": "8.9.4",
-"npm": "4.0.5"
+"npm": "5.5.1"
 ```
 Windows 10 / MacOS 10.12 で動作確認しました。
 
@@ -15,7 +15,7 @@ Windows 10 / MacOS 10.12 で動作確認しました。
 
 1.Git リポジトリをクローン
 ```sh
-git clone https://github.com/okamoai/gulp-boilerplate.git
+git clone https://github.com/gurunavi-creators/gulp-boilerplate-switchTask.git
 ```
 
 2.プロジェクトディレクトリに移動

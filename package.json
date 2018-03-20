@@ -1,5 +1,5 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "gulp-boilerplate-switchtask",
   "version": "1.0.0",
   "description": "Static web page boilerplate with gulp.js",
   "main": "gulpfile.babel.js",
@@ -66,8 +66,8 @@
   "author": "okamoai <okamoai@rano-raraku.net>",
   "license": "MIT",
   "engines": {
-    "node": "~8.9.4",
-    "npm": "~4.0.5"
+    "node": "~8.9.1",
+    "npm": "~5.5.1"
   },
   "browser": {
     "jquery": "./node_modules/jquery/dist/jquery.js"
