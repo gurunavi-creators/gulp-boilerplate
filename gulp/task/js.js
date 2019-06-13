@@ -85,16 +85,6 @@ class Js extends Registry {
               })
             )
           )
-          .pipe(
-            gulpIf(
-              config.env === 'production',
-              uglify({
-                output: {
-                  comments: /^!/,
-                },
-              })
-            )
-          )
           .pipe(gulp.dest(config.tasks.js.path.build))
           .pipe(debug({ title: 'js:file' }))
       })
