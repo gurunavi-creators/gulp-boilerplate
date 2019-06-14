@@ -35,7 +35,11 @@ class Sass extends Registry {
             minifyFontValues: {
               removeQuotes: false,
             },
+            discardUnused: {
+              fontFace: false,
+            },
             zindex: false,
+            reduceIdents: false,
           })
         )
       }
