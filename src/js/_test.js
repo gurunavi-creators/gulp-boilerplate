@@ -1,4 +1,4 @@
-export default function test($) {
+export function test($) {
   console.log($.fn.jquery)
   console.log($.easing)
 }

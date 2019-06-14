@@ -44,7 +44,7 @@ class Postcss extends Registry {
             },
             zindex: false,
             reduceIdents: false,
-          })
+          }),
         )
       }
       const gulpSrc = path.join(config.tasks.postcss.path.source, config.tasks.postcss.target)
@@ -55,7 +55,7 @@ class Postcss extends Registry {
           .pipe(
             plumber({
               errorHandler: notify.onError('<%= error.message %>'),
-            })
+            }),
           )
           // Skip outputting directories and files with underscores
           .pipe(filter(file => !/[/\\]_/.test(file.path) || !/_/.test(file.relative)))
