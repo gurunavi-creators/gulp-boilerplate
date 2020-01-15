@@ -89,18 +89,18 @@ class Sprite extends Registry {
           .join(path.sep)
         const spriteRetinaPath = config.tasks.sprite.retina
           ? path.join(
-            config.tasks.sprite.path.source,
-            spritePath
-              .split(path.sep)
-              .map(dir => {
-                if (dir === spriteName) {
-                  return `_${spriteName}`
-                }
-                return dir
-              })
-              .join(path.sep),
-            config.tasks.sprite.target2x,
-          )
+              config.tasks.sprite.path.source,
+              spritePath
+                .split(path.sep)
+                .map(dir => {
+                  if (dir === spriteName) {
+                    return `_${spriteName}`
+                  }
+                  return dir
+                })
+                .join(path.sep),
+              config.tasks.sprite.target2x,
+            )
           : null
 
         const spriteData = gulp
@@ -171,9 +171,9 @@ class Sprite extends Registry {
               },
               ...(spriteRetinaPath
                 ? {
-                  retinaSrcFilter: spriteRetinaPath,
-                  retinaImgName: spriteRetinaPath ? `sprites_${spriteName}@2x.png` : null,
-                }
+                    retinaSrcFilter: spriteRetinaPath,
+                    retinaImgName: spriteRetinaPath ? `sprites_${spriteName}@2x.png` : null,
+                  }
                 : {}),
             }),
           )

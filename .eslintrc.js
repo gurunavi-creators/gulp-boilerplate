@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['gnavi'],
+  extends: ['gnavi', 'prettier'],
   overrides: {
     files: ['gulp/**/*.js'],
     rules: {
